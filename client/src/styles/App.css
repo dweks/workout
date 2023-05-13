@@ -1,0 +1,31 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* Dimensions */
+  /* Spacing */
+  /* Background color */
+  --body-bg: hsl(var(--blue), 10%, 13%);
+
+  /* Font */
+  --header-font-size: 16pt;
+
+  /* Color scheme */
+  --red: 20;
+  --orange: 30;
+  --yellow: 50;
+  --green: 180;
+  --blue: 220;
+  --blue2: 230;
+  --purple: 250;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: hsl(var(--blue), 5%, 90%);
+}
+
+#main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+}
